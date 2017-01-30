@@ -1,8 +1,14 @@
 <application>
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <PhpCSConfiguration />
+      <phpcs_by_interpreter interpreter_id="6eef01c7-d419-40f9-ae92-339122b01c34" tool_path="/usr/bin/phpcs" />
+    </phpcs_settings>
+  </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="docker://hub.dds.ufvjm.edu.br/desenvolvimento/apache-siga:v0.0.2/php" id="6eef01c7-d419-40f9-ae92-339122b01c34" name="Remote PHP 5.6" debugger_id="php.debugger.XDebug">
-        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="hub.dds.ufvjm.edu.br/desenvolvimento/apache-siga:v0.0.2" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      <interpreter home="docker://hub.dds.ufvjm.edu.br/desenvolvimento/jenkins-ufvjm/php" id="6eef01c7-d419-40f9-ae92-339122b01c34" name="Remote PHP 5.6" debugger_id="php.debugger.XDebug">
+        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="hub.dds.ufvjm.edu.br/desenvolvimento/jenkins-ufvjm" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
     </interpreters>
   </component>
@@ -10,7 +16,7 @@
     <phpInfoCache>
       <interpreter name="Remote PHP 5.6">
         <phpinfo binary_type="PHP" php_cli="/usr/bin/php5" path_separator=":" version="5.6.29-0+deb8u1">
-          <additional_php_ini>/etc/php5/cli/conf.d/05-opcache.ini, /etc/php5/cli/conf.d/10-pdo.ini, /etc/php5/cli/conf.d/20-curl.ini, /etc/php5/cli/conf.d/20-json.ini, /etc/php5/cli/conf.d/20-ldap.ini, /etc/php5/cli/conf.d/20-pdo_pgsql.ini, /etc/php5/cli/conf.d/20-pgsql.ini, /etc/php5/cli/conf.d/20-readline.ini</additional_php_ini>
+          <additional_php_ini>/etc/php5/cli/conf.d/05-opcache.ini, /etc/php5/cli/conf.d/10-pdo.ini, /etc/php5/cli/conf.d/20-curl.ini, /etc/php5/cli/conf.d/20-json.ini, /etc/php5/cli/conf.d/20-readline.ini</additional_php_ini>
           <configuration_file>/etc/php5/cli/php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
@@ -85,7 +91,6 @@
             <configuration_option name="include_path" value=".:/usr/share/php:/usr/share/pear" />
             <configuration_option name="input_encoding" value="" />
             <configuration_option name="internal_encoding" value="" />
-            <configuration_option name="ldap.max_links" value="-1" />
             <configuration_option name="log_errors" value="1" />
             <configuration_option name="log_errors_max_len" value="1024" />
             <configuration_option name="mail.add_x_header" value="1" />
@@ -145,12 +150,6 @@
             <configuration_option name="output_handler" value="" />
             <configuration_option name="pcre.backtrack_limit" value="1000000" />
             <configuration_option name="pcre.recursion_limit" value="100000" />
-            <configuration_option name="pgsql.allow_persistent" value="1" />
-            <configuration_option name="pgsql.auto_reset_persistent" value="" />
-            <configuration_option name="pgsql.ignore_notice" value="0" />
-            <configuration_option name="pgsql.log_notice" value="0" />
-            <configuration_option name="pgsql.max_links" value="-1" />
-            <configuration_option name="pgsql.max_persistent" value="-1" />
             <configuration_option name="phar.cache_list" value="" />
             <configuration_option name="phar.readonly" value="1" />
             <configuration_option name="phar.require_hash" value="1" />
@@ -250,15 +249,12 @@
             <extension name="hash" />
             <extension name="iconv" />
             <extension name="json" />
-            <extension name="ldap" />
             <extension name="libxml" />
             <extension name="mbstring" />
             <extension name="mhash" />
             <extension name="openssl" />
             <extension name="pcntl" />
             <extension name="pcre" />
-            <extension name="pdo_pgsql" />
-            <extension name="pgsql" />
             <extension name="posix" />
             <extension name="readline" />
             <extension name="session" />
