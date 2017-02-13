@@ -4,6 +4,9 @@
       <webServer id="f524f159-c161-4ada-8732-9ac039dadd5b" name="SIGA" url="http://localhost">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="b19b6879-35d4-495f-bb2b-82a519f379d1" name="void" url="http://localhost:8081">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
