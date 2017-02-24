@@ -7,8 +7,8 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="docker://hub.dds.ufvjm.edu.br/desenvolvimento/jenkins-ufvjm/php" id="6eef01c7-d419-40f9-ae92-339122b01c34" name="Remote PHP 5.6" debugger_id="php.debugger.XDebug">
-        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="hub.dds.ufvjm.edu.br/desenvolvimento/jenkins-ufvjm" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      <interpreter home="docker://php:5.6/php" id="6eef01c7-d419-40f9-ae92-339122b01c34" name="Remote PHP 5.6" debugger_id="php.debugger.XDebug">
+        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="php:5.6" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
     </interpreters>
   </component>
