@@ -7,6 +7,9 @@
       <webServer id="b19b6879-35d4-495f-bb2b-82a519f379d1" name="void" url="http://localhost:8081">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="7eb253c4-c259-4e4a-9866-ea1d24531892" name="localhost" url="http://localhost:2080">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
